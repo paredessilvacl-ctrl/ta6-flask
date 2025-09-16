@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}Resultado Ej2{% endblock %}
+{% block content %}
+<h2>Resultado - Ejercicio 2</h2>
+{% if nombres_max|length > 1 %}
+  <p>Hay empate entre los siguientes nombres con {{ max_len }} caracteres:</p>
+  <ul>{% for n in nombres_max %}<li>{{ n }}</li>{% endfor %}</ul>
+{% else %}
+  <p>Nombre más largo: <strong>{{ nombres_max[0] }}</strong> ({{ max_len }} caracteres)</p>
+{% endif %}
+<a href="{{ url_for('index') }}">Volver al menú</a>
+{% endblock %}

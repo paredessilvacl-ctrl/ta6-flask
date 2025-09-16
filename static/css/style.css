@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; margin:0; padding:0; }
+.topbar { background:#2b8; color:#fff; padding:12px; }
+.container { padding:20px; }
+.menu { display:flex; gap:20px; margin:20px 0; }
+.btn { display:inline-block; padding:12px 20px; background:#0366d6; color:#fff; text-decoration:none; border-radius:6px; }
+.flash { background:#ffd; border:1px solid #cc0; padding:10px; margin-bottom:10px; }
+footer.footer { background:#f2f2f2; padding:10px; text-align:center; margin-top:20px; }
+label { display:block; margin:8px 0; }

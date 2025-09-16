@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}Resultado Ej1{% endblock %}
+{% block content %}
+<h2>Resultado - Ejercicio 1</h2>
+<p>Notas ingresadas: {{ notas }}</p>
+<p>Promedio: {{ promedio }}</p>
+<p>Asistencia: {{ asistencia }}%</p>
+<p>Estado: <strong>{{ estado }}</strong></p>
+<a href="{{ url_for('index') }}">Volver al menú</a>
+{% endblock %}

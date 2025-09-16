@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block title %}Menú Principal{% endblock %}
+{% block content %}
+<h2>Menú Principal</h2>
+<div class="menu">
+  <a class="btn" href="{{ url_for('ejercicio1') }}">Ejercicio 1 - Notas</a>
+  <a class="btn" href="{{ url_for('ejercicio2') }}">Ejercicio 2 - Nombres</a>
+</div>
+{% endblock %}
