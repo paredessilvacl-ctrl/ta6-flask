@@ -1,1 +1,1 @@
-Pega aquí el enlace a tu repositorio de GitHub.
+https://github.com/paredessilvacl-ctrl/ta6-flask
